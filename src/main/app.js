@@ -12,11 +12,11 @@ app.allowRendererProcessReuse = true
 
 async function createWindow() {
   win = new BrowserWindow({
+    width: 1000,
+    height: 1000,
     icon: nativeImage.createFromPath(
       path.join(assetsPath, "assets", "icon.png")
     ),
-    frame: false,
-    titleBarStyle: "customButtonsOnHover",
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true,

@@ -1,7 +1,8 @@
-const injectCSS = require("./utils/inject-css")
+const injectJS = require("./utils/inject-js")
 
 window.addEventListener("DOMContentLoaded", () => {
-  injectCSS("src", "renderer", "styles", "style.css")
+  injectJS("src", "renderer", "translate", "i18n.js")
+  injectJS("src", "renderer", "translate", "translate.js")
 
   if (process.platform !== "darwin") {
     require("./modules/window-manager/create-windows-menu")()
