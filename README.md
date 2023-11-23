@@ -20,9 +20,3 @@ yarn package
 
 3. Run your new app.
    _It will be at dir ./out_
-
-# Contact
-
-Pavel Frolov
-
-- [pavelfrolov.com](https://pavelfrolov.com)
