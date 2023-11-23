@@ -1,6 +1,6 @@
 {
   "name": "runotion",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Notion on russian",
   "main": "./.webpack/main/index.js",
   "scripts": {
